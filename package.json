@@ -1,0 +1,42 @@
+{
+  "name": "NodeChat",
+  "version": "1.0.0",
+  "description": "NodeChat",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bessvetie/NodeChat.git"
+  },
+  "author": "Lyudmila Ilina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bessvetie/NodeChat/issues"
+  },
+  "homepage": "https://github.com/bessvetie/NodeChat#readme",
+  "dependencies": {
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-htmlmin": "^2.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-filerev": "^2.3.1",
+    "grunt-usemin": "^3.1.1",
+    "imagemin-mozjpeg": "^6.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "engines": {
+    "node": "6.5.0",
+    "npm": "3.10.3"
+  }
+}

@@ -1,0 +1,142 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+body { 
+  font: 13px Helvetica, Arial; 
+}
+#sections section:not(.active),
+#infoText:not(.active) {
+  display:none; 
+}
+
+/* Login */
+input.error {
+  border: 2px solid red; 
+}
+h1 {
+  margin-bottom: 20px;
+}
+#loginWrapper {
+  background: rgb(130, 224, 255); 
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  width: 320px;
+  height: 112px;
+  padding: 10px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;   
+}
+#loginWrapper div {
+  margin-left: 35px;
+}
+#infoText {
+  color: red
+}
+
+/* Chat */
+#leftpanel { 
+  left: 0; 
+  width: 75%; 
+}
+#rightpanel {     
+  box-shadow: 0px 0px 5px 3px rgb(45, 95, 97) inset;
+  background: rgb(95, 158, 160);
+  right: 0; 
+  width: 25%; 
+}
+.panel {
+  overflow-y: scroll;
+  border: 2px solid #5f9ea0; 
+  padding: 3px; 
+  position: fixed; 
+  height: 80%;
+}
+#bottom { 
+  background: rgb(95, 158, 160);
+  padding: 3px; 
+  position: fixed; 
+  bottom: 0; 
+  width: 100%; 
+  height: 20%;
+}
+#messageseArea { 
+  border: 2px solid white;
+  padding: 10px;
+  width: 100%;
+  height: 70%;
+}
+#messageseArea:focus {
+    outline: none !important;
+    border:2px solid blue;
+}
+#sendMessageBlock {
+  width: 75%;
+  height: 100%;
+}
+#sendMessage { 
+  display: inline-block;
+  float:right; 
+  height: 25%;
+}
+
+#sendMessage:hover { 
+    cursor: pointer;
+}
+#messages { 
+  padding: 0; 
+  margin-left: -5px;
+}
+#messages .message {
+  margin-left: 5px;
+  padding-bottom: 30px;
+}
+#chatWrapper li {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #666666;
+  list-style-type: none;
+}
+#messages .dataMessage {
+  background: #c4d5d6;
+  border-radius: 0 8px 8px 0;
+  padding: 5px;
+  margin-left: 0px;
+  width: 100%;
+}
+#messages .dateMessage {
+  font-size: 12px;
+  color: #5f9ea0;
+  margin-top: 5px;
+}
+#messages .userName {
+  font-weight: bold;
+  color: #4d5188;
+}
+#messages .textMessage {
+  background: rgb(241, 244, 245);
+  border-radius: 8px 8px 8px 8px;
+  color: #007073;
+  font-size: 15px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 20%;
+  word-break: break-all;
+  width: 79%;
+}
+#messages .youMessage .dataMessage {
+  border-radius: 8px 0 0 8px;
+  text-align: right;
+}
+#messages .youMessage .textMessage {
+  margin-left: 1%;
+}
+#messages .infoMessage {
+  color: #e4c7c7;
+  font-size: 15px;
+  text-align: center;
+  padding: 0;
+}
